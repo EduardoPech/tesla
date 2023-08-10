@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 200px;
+  height: 100%;
+  color: #000;
+}
+
+nav {
+  margin: 0 0 0 -100px;
+}
+
+nav ul {
+  display: flex; /* Para que los elementos se muestren en línea */
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none; /* Para quitar los puntos de la lista */
+  padding: 0 20px; /* T R B L */
+}
+
+nav ul li a {
+  text-decoration: none; /* Para quitar el subrayado */
+  color: #000;
+}
+
+#icons {
+  height: 100%;
+  width: 40px;
+  color: #000;
+}
+
+#icons a {
+  color: #000;
+  text-decoration: none;
+}
